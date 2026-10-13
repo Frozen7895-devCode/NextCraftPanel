@@ -1,0 +1,36 @@
+# Secrets et configuration locale
+.env
+*.pem
+*.key
+
+# Données d'exécution (jamais versionnées ni distribuées)
+/data/*
+/server/*
+/backups/*
+/logs/*
+!/data/.gitkeep
+!/server/.gitkeep
+!/backups/.gitkeep
+!/logs/.gitkeep
+*.db
+*.db-wal
+*.db-shm
+*.pid
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Livrables générés
+/dist/
+NexCraft-Panel.zip
+NexCraft-Panel.zip.sha256
+
+# Éditeurs / système
+.idea/
+.vscode/
+.DS_Store

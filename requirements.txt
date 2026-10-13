@@ -1,0 +1,10 @@
+# Dépendances d'exécution de NexCraft Panel (Python 3.11 ou supérieur).
+# Les bornes basses correspondent aux versions réellement testées ; voir requirements-tested.txt
+# pour les versions exactes utilisées lors des tests.
+fastapi>=0.143,<0.300
+uvicorn[standard]>=0.54,<0.300
+SQLAlchemy>=2.0.40,<3.0
+argon2-cffi>=23.1,<30
+psutil>=6.0,<10
+python-multipart>=0.0.20,<1.0
+httpx>=0.28,<1.0
